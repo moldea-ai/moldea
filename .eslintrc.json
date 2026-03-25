@@ -1,0 +1,22 @@
+{
+  "extends": ["airbnb-base", "airbnb-typescript/base", "prettier"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-underscore-dangle": "off",
+    "@typescript-eslint/naming-convention": "off",
+    "import/prefer-default-export": "off",
+    "import/extensions": "off",
+    "no-useless-escape": "off"
+  },
+  "overrides": [
+    {
+      "files": ["*.test-*.ts", "*.bench.ts"],
+      "rules": {
+        "object-curly-newline": "off",
+        "import/no-extraneous-dependencies": ["error", { "devDependencies": true }]
+      }
+    }
+  ]
+}
