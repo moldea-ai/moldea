@@ -1,6 +1,6 @@
 {
   "name": "moldea",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "The official SDK for accessing and integrating moldea’s API in your applications. ",
   "homepage": "https://github.com/moldea-ai/moldea#readme",
   "bugs": {
